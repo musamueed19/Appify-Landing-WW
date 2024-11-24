@@ -29,7 +29,7 @@ export const navLinks = [
   },
   {
     id: 6,
-    href: "/",
+    href: "#contact",
     label: "Contact",
   },
 ];

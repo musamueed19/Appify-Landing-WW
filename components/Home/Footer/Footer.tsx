@@ -8,10 +8,10 @@ const Footer = () => {
     }
 
   return (
-    <div className="bg-white py-16">
+    <div className="bg-white py-16" id="footer">
           <div className="w-[90%] mx-auto px-4 sm:px-6 lg:px-8">
               {/* Links & Info - Section */}
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {/* Main Logo - Footer - panel 1 */}
           {/* Logo & description */}
           <div>
@@ -59,22 +59,22 @@ const Footer = () => {
 
           {/* Footer - panel 4 */}
           {/* Our Contact Info - Links */}
-          <div>
+          <div id="contact">
             <h3 className="text-lg font-semibold text-gray-800">
               Contact Info
             </h3>
 
             <ul className="text-gray-500 text-sm mt-4 space-y-4 font-semibold">
-              <li className="flex items-center">
+              <li className="flex items-center text-sm">
                 <FaMapMarkedAlt className="mr-2" />
-                Amsterdam, Netherlands
+                Lahore, Pakistan - 54000
               </li>
               <li className="flex items-center">
                 <FaPhoneAlt className="mr-2" />
-                +01 23454 65456
+                +92 305 8012626
               </li>
               <li className="flex items-center">
-                <FaClock className="mr-2" />7 Days - 8am - 2pm
+                <FaClock className="mr-2" />6 Days - 8am - 2pm
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="mr-2" />

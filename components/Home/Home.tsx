@@ -1,6 +1,7 @@
 import AnalyticsFeature from "./AnalyticsFeature/AnalyticsFeature";
 import Feature from "./Feature/Feature";
 import Hero from "./Hero/Hero";
+import Offer from "./Offer/Offer";
 import Price from "./Price/Price";
 import Review from "./Review/Review";
 import WhyChoose from "./WhyChoose/WhyChoose";
@@ -27,6 +28,7 @@ export default function Home() {
       <Price />
 
       {/* Offer - Offerings Section */}
+      <Offer />
     </div>
   );
 }
