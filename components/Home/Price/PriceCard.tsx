@@ -8,7 +8,7 @@ type Props = {
 
 const PriceCard = ({ price, plan }: Props) => {
   return (
-    <div className="bg-white py-12 px-8 rounded-lg shadow-lg">
+    <div className="bg-white py-12 px-8 md:px-12 rounded-lg shadow-lg">
       <p className="mt-8 text-xl font-semibold text-blue-600 text-center">
         {plan} Plan
       </p>
@@ -25,7 +25,7 @@ const PriceCard = ({ price, plan }: Props) => {
             <div className="text-center w-8 h-8 bg-gray-300/70 flex flex-col items-center justify-center rounded-full">
               <FaCheck className="text-green-500" />
             </div>
-            <p className="text-sm font-semibold text-gray-700 capitalize">
+            <p className="text-sm font-semibold text-gray-700 capitalize text-left">
               {item}
             </p>
           </div>
