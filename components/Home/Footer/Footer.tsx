@@ -1,5 +1,5 @@
 'use client'
-import { FaClock, FaDribbble, FaEnvelope, FaFacebook, FaGithub, FaInstagram, FaMapMarkedAlt, FaPhoneAlt, FaTwitter } from "react-icons/fa";
+import { FaClock, FaDribbble, FaEnvelope, FaFacebook, FaGithub, FaMapMarkedAlt, FaPhoneAlt, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
 

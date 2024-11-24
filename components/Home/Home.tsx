@@ -25,6 +25,8 @@ export default function Home() {
 
       {/* Pricing Section */}
       <Price />
+
+      {/* Offer - Offerings Section */}
     </div>
   );
 }
