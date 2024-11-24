@@ -8,7 +8,7 @@ type Props = {
 
 const PriceCard = ({ price, plan }: Props) => {
   return (
-    <div className="bg-white p-12 rounded-lg shadow-lg">
+    <div className="bg-white py-12 px-8 rounded-lg shadow-lg">
       <p className="mt-8 text-xl font-semibold text-blue-600 text-center">
         {plan} Plan
       </p>
@@ -33,7 +33,7 @@ const PriceCard = ({ price, plan }: Props) => {
       </div>
 
       {/* Call To Action - Button Section */}
-      <button type="button" className="text-center w-full rounded-sm font-medium bg-blue-900 text-white py-4 hover:bg-blue-950">
+      <button type="button" className="text-base md:text-lg text-center w-full rounded-sm font-bold bg-blue-900 text-white py-4 hover:bg-blue-950 transition-all duration-200">
         Start 14 Days Free Trial
       </button>
     </div>

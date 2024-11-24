@@ -24,8 +24,8 @@ export const navLinks = [
   },
   {
     id: 5,
-    href: "/",
-    label: "Blog",
+    href: "#price",
+    label: "Pricing",
   },
   {
     id: 6,
