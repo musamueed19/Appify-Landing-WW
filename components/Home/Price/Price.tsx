@@ -7,7 +7,7 @@ const Price = () => {
         Meet exciting Pricing Plans
       </h2>
 
-      <div className="mt-20 w-[92%] md:w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
+      <div className="mt-20 w-[92%] md:w-[80%] lg:w-[70%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
         {/* Free Plan */}
         <div>
           <PriceCard price={15} plan="Starter" />
