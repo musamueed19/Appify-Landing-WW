@@ -8,7 +8,7 @@ import ReviewCard from "./ReviewCard";
 const Review = () => {
   return (
     <div className="py-16 bg-[#fcf6fa]" id="review">
-      <h1 className="mt-6 text-2xl md:text-3xl capitalize font-bold text-center px-12">
+      <h1 className="mt-6 text-2xl md:text-3xl capitalize font-bold text-center w-[90%] md:w-[80%] mx-auto">
         What client say about us
       </h1>
 
