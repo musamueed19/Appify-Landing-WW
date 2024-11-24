@@ -15,10 +15,11 @@ const Review = () => {
       <div className="mt-20 w-[90%] md:w-[80%] mx-auto">
               {/* Slider Section */}
               
-              <Carousel arrows={false} autoPlay={true} autoPlaySpeed={4000} infinite={true} responsive={responsive} showDots={true}>
+              <Carousel arrows={true} autoPlay={true} autoPlaySpeed={4000} infinite={true} responsive={responsive} showDots={true}>
+                  <ReviewCard name="Ehtasham Hunjra" src="/images/c2.png" role="Backend Developer" />
                   <ReviewCard name="Jessy Bob" src="/images/c1.png" />
-                  <ReviewCard name="Jhone Doe" src="/images/c2.png" />
-                  <ReviewCard name="Jhone Doe" src="/images/c2.png" />
+                  <ReviewCard name="Muhammad Musa Mueed" src="/images/c2.png"  role="Frontend Developer" />
+                  <ReviewCard name="Jessy Bob" src="/images/c1.png" />
               </Carousel>
       </div>
     </div>

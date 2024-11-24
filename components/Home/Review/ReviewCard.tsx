@@ -3,10 +3,11 @@ import { FaQuoteLeft, FaStar } from "react-icons/fa";
 
 type Props = {
   name: string;
-  src: string;
+    src: string;
+  role?: string,
 };
 
-const ReviewCard = ({ name, src }: Props) => {
+const ReviewCard = ({ name, src, role = "Full Stack Developer" }: Props) => {
   return (
     <div className="w-full lg:w-[90%] mx-auto p-6 relative bg-white shadow-lg rounded-lg">
       <div>
@@ -34,12 +35,20 @@ const ReviewCard = ({ name, src }: Props) => {
 
           {/* Client Name */}
           <div className="mt-8 text-xl font-semibold">{name}</div>
-          <div className="mt-2 text-lg text-gray-600 font-medium mb-6">Fullstack Web Developer</div>
+          <div className="mt-2 text-base text-gray-600 font-medium mb-6">
+            {role}
+          </div>
         </div>
 
         {/* Image Content (Client Image) - Section */}
-        <div className="col-span-2 flex justify-center items-center order-1 lg:order-2 w-full h-full">
-          <Image src={src} width={300} height={300} alt={name} className="object-contain rounded-full" />
+        <div className="col-span-2 mx-auto order-1 lg:order-2">
+          <Image
+            src={src}
+            width={250}
+            height={120}
+            alt={name}
+            className="object-contain rounded-full"
+          />
         </div>
       </div>
     </div>
