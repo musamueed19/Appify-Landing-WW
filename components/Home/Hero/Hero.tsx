@@ -22,7 +22,11 @@ const Hero = () => {
 
             {/* Heading */}
             {/* sm:leading-[2rem] */}
-            <h1 className="text-2xl sm:text-4xl md:text-5xl my-6 font-bold md:leading-[3.5rem] lg:leading-[3.5rem]">
+            <h1
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-center"
+              className="text-2xl sm:text-4xl md:text-5xl my-6 font-bold md:leading-[3.5rem] lg:leading-[3.5rem]"
+            >
               The premier workspace companion for your daily needs.
             </h1>
 
@@ -54,7 +58,12 @@ const Hero = () => {
           </div>
 
           {/* Image Content */}
-          <div className="hidden lg:block">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-center"
+            data-aos-delay="200"
+            className="hidden lg:block"
+          >
             <Image src="/images/hero.png" width={700} height={700} alt="hero" />
           </div>
         </div>

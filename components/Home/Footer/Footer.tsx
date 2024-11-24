@@ -67,7 +67,7 @@ const Footer = () => {
             <ul className="text-gray-500 text-sm mt-4 space-y-4 font-semibold">
               <li className="flex items-center text-sm">
                 <FaMapMarkedAlt className="mr-2" />
-                Lahore, Pakistan - 54000
+                Lahore, Punjab, Pakistan - 54000
               </li>
               <li className="flex items-center">
                 <FaPhoneAlt className="mr-2" />

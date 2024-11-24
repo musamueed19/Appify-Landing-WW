@@ -9,28 +9,28 @@ const WhyChoose = () => {
           <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 w-[90%] mx-auto">
               
               {/* Column 1 */}
-              <div className="whychoose__card">
+              <div className="whychoose__card" data-aos="fade-right" data-aos-anchor-placement="top-center">
                   {/* Reuseable Card - Component */}
                   <WhyChooseCard src='/images/i1.png' title='Create Free Account' label='Start Earning' />
               </div>
 
               
               {/* Column 2 */}
-              <div className="whychoose__card">
+              <div className="whychoose__card" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="100">
                   {/* Reuseable Card - Component */}
                   <WhyChooseCard src='/images/i2.png' title='Monitor User Analytics' label='Sign up your store' />
               </div>
 
               
               {/* Column 3 */}
-              <div className="whychoose__card">
+              <div className="whychoose__card" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="200">
                   {/* Reuseable Card - Component */}
                   <WhyChooseCard src='/images/i3.png' title='Safe & Trusted' label='Get the App' />
               </div>
 
 
               {/* Column 4 */}
-              <div className="whychoose__card">
+              <div className="whychoose__card" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="300">
                   {/* Reuseable Card - Component */}
                   <WhyChooseCard src='/images/i4.png' title='Fast Customer Support' label='Learn More' />
               </div>

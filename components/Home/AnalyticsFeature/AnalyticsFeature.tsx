@@ -7,7 +7,7 @@ const AnalyticsFeature = () => {
       {/* Define Grid */}
       <div className="grid w-[95%] sm:w-[80%] mx-auto grid-cols-1 lg:grid-cols-2 gap-10">
         {/* Image Content */}
-        <div>
+        <div  data-aos="fade-up" data-aos-anchor-placement="top-center">
           <Image
             src="/images/a.jpg"
             alt="analytics image"
