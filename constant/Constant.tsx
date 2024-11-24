@@ -90,3 +90,11 @@ export const responsive = {
     slidesToSlide: 1, // optional, default to 1.
   },
 };
+
+export const priceFeatures = [
+  "unlimited connections",
+  "basic actions & triggers",
+  "draft payments",
+  "unlimited flows & supports",
+  "lifetime updates",
+]
